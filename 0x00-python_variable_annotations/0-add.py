@@ -2,6 +2,8 @@
 """
 A module displaying type annotations
 """
+
+
 def add(a: float, b: float) -> float:
     """A function for type annotations"""
     return a + b

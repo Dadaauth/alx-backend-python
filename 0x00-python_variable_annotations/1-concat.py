@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-concat = __import__('1-concat').concat
+"""A concat function module"""
 
-str1 = "egg"
-str2 = "shell"
 
-print(concat(str1, str2) == "{}{}".format(str1, str2))
-print(concat.__annotations__)
+def concat(str1: str, str2: str) -> str:
+    """A concat function written in python"""
+    return str1 + str2
