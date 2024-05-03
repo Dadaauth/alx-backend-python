@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """A module to work on 👍"""
-from typing import Any, Sequence, Union, Optional, Type
-type NoneType = (None)
+from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: Sequence[Any]) -> Union[Any, NoneType]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """A docstring for this function"""
     if lst:
         return lst[0]
